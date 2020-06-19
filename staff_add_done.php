@@ -12,7 +12,7 @@
     {
 
         $staff_name=$_POST['name'];
-        $staff_name=$_POST['psss'];
+        $staff_pass = $_POST['pass'];
 
         $staff_name=htmlspecialchars($staff_name,ENT_QUOTES,'UTF-8');
         $staff_pass=htmlspecialchars($staff_pass,ENT_QUOTES,'UTF-8');
